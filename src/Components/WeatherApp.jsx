@@ -29,7 +29,7 @@ const WeatherApp = () => {
   }
   const getGreeting = () => {
     const hour = new Date().getHours();
-    if (hour < 12 && hour >= 1) {
+    if (hour < 11 && hour >= 1) {
       return "Good Morning!";
     } else if (hour >= 12 && hour <= 15) {
       return "Good Afternoon!";
