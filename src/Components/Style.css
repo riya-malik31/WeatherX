@@ -175,7 +175,7 @@ div#div-3 {
         margin-right: 10px;
     }
 }
-@media (max-width: 800px) {
+@media (max-width: 767px) {
     h1#weat {
             margin-left: 0px;
             font-size: 2rem !important;
